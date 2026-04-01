@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/*Diese Datei enthält nur Konfigurations Inhalt bezüglich Tailwind CSS 
+Es wird seit 2024 Version keine tailwind.config.js mehr benötigt und es kann alles
+direkt in die .css Datei geschrieben werden. */
+@theme {
+  --color-brand-500: #2563eb;
+  --color-brand-700: #1d4ed8;
+
+  --font-display: "Inter", sans-serif;
+  --radius-card: 1rem;
+}
+
+:root {
+  --app-max-width: 1280px;
+}
+
+body h1 h2 h3 h4 h5 {
+}
+
+/*Darkscreen/White Screen*/
+.dark .white {
+}

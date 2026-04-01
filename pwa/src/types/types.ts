@@ -1,0 +1,2 @@
+// Alle Datentypen der PWA
+
